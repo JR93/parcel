@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel watch index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "repository": "git@github.com:JR93/parcel-learn.git",
   "author": "guojinrong <guojinrong@yy.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.8.1"
+    "@vue/component-compiler-utils": "^1.2.1",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
   }
 }
