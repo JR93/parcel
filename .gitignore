@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+npm-debug.log
+.idea
+.zip
+.cache
+/dev
+/dist
+/output
+.sass-cache
+config.json
+.vscode
+yarn-error.log

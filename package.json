@@ -1,0 +1,15 @@
+{
+  "name": "parcel-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel watch index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": "git@github.com:JR93/parcel-learn.git",
+  "author": "guojinrong <guojinrong@yy.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}
