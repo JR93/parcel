@@ -1,14 +1,13 @@
 {
-  "name": "parcel-learn",
+  "name": "parcel-vue-demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "repository": "git@github.com:JR93/parcel-vue-demo.git",
+  "author": "JR93 <gjr_china@163.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url ./"
   },
-  "repository": "git@github.com:JR93/parcel-learn.git",
-  "author": "guojinrong <guojinrong@yy.com>",
-  "license": "MIT",
   "devDependencies": {
     "@vue/component-compiler-utils": "^1.2.1",
     "node-sass": "^4.9.0",

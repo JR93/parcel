@@ -1,6 +1,9 @@
 <template>
   <div class="app">
-    <h1>JT</h1>
+    <h1>JR666</h1>
+    <div class="bd">
+      <p class="desc">Front-End {{name}}</p>
+    </div>
   </div>
 </template>
 
@@ -8,7 +11,9 @@
 export default {
   name: 'app',
   data() {
-    return {};
+    return {
+      name: 'YY'
+    };
   },
   created() {},
 }
@@ -18,6 +23,10 @@ export default {
   .app {
     h1 {
       color: green;
+    }
+    .desc {
+      color: #f60;
+      font-size: 30px;
     }
   }
 </style>
