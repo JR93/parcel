@@ -4,26 +4,28 @@
     <div class="bd">
       <input type="text" v-model="name" placeholder="input something">
       <p class="desc" @click="output">Front-End {{name}}</p>
+      <img src="../img/silver_ka.png" alt="">
     </div>
   </div>
 </template>
 
 <script>
-import util from '../js/common/util'
+import util from '../js/common/util';
 
 export default {
   name: 'app',
-  data () {
+  data() {
     return {
-      name: ''
-    }
+      name: '',
+    };
   },
+  created() {},
   methods: {
-    output () {
-      console.log(util.sum(3, 4))
-    }
-  }
-}
+    output() {
+      console.log(util.sum(3, 4));
+    },
+  },
+};
 </script>
 
 <style lang="scss">
@@ -34,8 +36,12 @@ export default {
     font-size: 40px;
   }
   .desc {
+    width: 200px;
+    height: 400px;
     color: #f60;
     font-size: 30px;
+    background-image: url(../img/red_rain_pc.png);
+    background-repeat: no-repeat;
   }
 }
 </style>
